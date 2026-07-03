@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.eyecatch {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner_list_detail ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.banner_list_detail li {
+    text-align: center;
+}
+
+.banner_list_detail li img {
+    width: 95%;
+}
+
+
+@media (max-width: 767px) {
+    .banner_list_detail ul {
+        justify-content: space-around;
+    }
+    .banner_list_detail li {
+        max-width: 45%;
+    }
+
+}
